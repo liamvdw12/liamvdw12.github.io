@@ -84,26 +84,22 @@
                   <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-2">
                     <div class="u-container-layout u-valign-top u-container-layout-2">
                       <div class="u-form u-form-1">
-                        <form action="scripts/form-6aff.php" method="POST" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="customphp" name="form-5">
+                        <form id="fcf-form-id" form action="contact-form-process.php" method="post" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 10px" source="customphp" name="form-5">
                           <div class="u-form-group u-form-name u-form-group-1">
-                            <label for="name-5359" class="u-form-control-hidden u-label">Name</label>
-                            <input type="text" placeholder="Name" id="name-5359" name="name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
+                            <label for="Name" class="u-form-control-hidden u-label">Name</label>
+                            <input type="text" placeholder="Name" id="Name" name="Name" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
                           </div>
                           <div class="u-form-email u-form-group u-form-group-2">
-                            <label for="email-5359" class="u-form-control-hidden u-label">Email</label>
-                            <input type="email" placeholder="Email" id="email-5359" name="email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
+                            <label for="Email" class="u-form-control-hidden u-label">Email</label>
+                            <input type="email" placeholder="Email" id="Email" name="Email" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required="">
                           </div>
                           <div class="u-form-group u-form-message u-form-group-3">
-                            <label for="message-5359" class="u-form-control-hidden u-label">Message</label>
-                            <textarea placeholder="Message" rows="8" cols="50" id="message-5359" name="message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required=""></textarea>
+                            <label for="Message" class="u-form-control-hidden u-label">Message</label>
+                            <textarea placeholder="Message" rows="8" cols="50" id="Message" name="Message" class="u-border-1 u-border-grey-30 u-input u-input-rectangle" required=""></textarea>
                           </div>
                           <div class="u-form-group u-form-submit u-form-group-4">
-                            <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
-                            <input type="submit" value="submit" class="u-form-control-hidden">
+                            <button type="submit" id="fcf-button" class="u-btn u-btn-submit u-button-style">Submit</button>
                           </div>
-                          <div class="u-form-send-message u-form-send-success">Thank you! Your message has been sent.</div>
-                          <div class="u-form-send-error u-form-send-message">Unable to send your message. Please fix errors then try again.</div>
-                          <input type="hidden" value="" name="recaptchaResponse">
                         </form>
                       </div>
                     </div>
