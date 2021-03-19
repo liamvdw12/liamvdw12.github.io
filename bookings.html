@@ -100,12 +100,11 @@
 			  <input type="hidden" name="_subject" value="New Booking!" />
                           <div class="u-form-group u-form-submit u-form-group-4">
                             <button type="submit" id="fcf-button" class="u-btn u-btn-submit u-button-style">Submit</button>
-			    <script type="test/javascript">
-			    	document.getElementById("fcf-button").onclick = function(){
-					location.href = "http://www.steezebyliam.com/bookingcomplete.html"; 
-				};
-			    </script>
                           </div>
+			  $("#btn").on("click", function() { 
+                            window.location.replace("index.html");
+                            localeStorage.clear();
+                            })
                         </form>
                       </div>
                     </div>
